@@ -55,13 +55,9 @@ class TCDogrulama
 }
 
 $a = new TCDogrulama;
-$data = $a->tcKimlik('******', 'KUBİLAY', 'YILDIRIM', '**', '**', '****');
+$data = $a->tcKimlik('tcggir', 'KUBİLAY', 'YILDIRIM', 'aygir', 'gungir', 'yilgir');
 
 
-if (!$data['success']) {
-    print_r(json_encode($data));
-} else {
-    print_r(json_encode($data));
-}
+print_r(json_encode($data));
 
 ?>
